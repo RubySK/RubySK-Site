@@ -1,0 +1,151 @@
+/*Misc*/
+body {
+	margin: 0;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+/*Navigation*/
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: white;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 17px 0;
+  font-weight: bold;
+}
+
+nav {
+  float: right;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+  padding-bottom: 17px;
+
+  position: relative;
+}
+
+nav a {
+  color: maroon;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: maroon;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: maroon;
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+/*Columns*/
+.col-2 {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+.col-3 {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+.col-4 {
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+}
+.col-5 {
+	-webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+}
+.col-6 {
+	-webkit-column-count: 6; /* Chrome, Safari, Opera */
+    -moz-column-count: 6; /* Firefox */
+    column-count: 6;
+}
+
+/*Buttons*/
+.button {
+    background-color: #555555; /* Black (Default Color) */
+    border: none;
+    color: white;
+    padding: 12px 33px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover, button:focus{
+  opacity: 0.7;
+  outline: none;
+}
+.blue {background-color: #03A9F4;} /* Blue */
+.red {background-color: #800000;} /* Red */ 
+.alert {background-color: #ff8c1a;} /* Gray */ 
+
+/*Labels*/
+
+
+
+
+
+/*Tables*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+/*Headers*/
+h1,h2,h3,h4,h5,h6 {
+
+	font-family: sans-serif;
+
+}

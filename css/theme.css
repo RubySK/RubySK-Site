@@ -1,0 +1,25 @@
+.vshape {     
+    position:relative;
+    background-color:#660000;
+    height:65% !important;
+    width:100% !important;
+
+}
+
+.vshape:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 16%;
+    margin-left: 400px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #660000;
+    border-left: solid 150px transparent;
+    border-right: solid 150px transparent;
+}
+div.container6 {
+  min-height: 25em;
+  display: flex;
+  align-items: center;
+  justify-content: center }
