@@ -1,4 +1,4 @@
-.vshape {     
+..vshape {     
     position:relative;
     background-color:#660000;
     height:65% !important;
@@ -17,9 +17,11 @@
     border-top: solid 50px #660000;
     border-left: solid 150px transparent;
     border-right: solid 150px transparent;
+
 }
-div.container6 {
+div.main {
   min-height: 25em;
   display: flex;
   align-items: center;
-  justify-content: center }
+  justify-content: center 
+}
